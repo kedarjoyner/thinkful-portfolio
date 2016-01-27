@@ -1,38 +1,70 @@
-.navbar-custom, .navbar-toggle-custom {
-  border: none;
-  background-color: transparentize(#000, .3) !important;
-  height: 75px;
-  color: $white;
-    .navbar-nav-custom {
-      float:none;
-      margin: 0 auto;
-      display: table;
-      table-layout: fixed;
-      @extend .header-button-text;
-    }
-    .navbar-nav-custom > li > a {
-      color: $white;
-      margin-top: 15px;
-    }
-    .navbar-nav-custom > li > a:hover {
-      color: lighten($teal, 20);
-    }
-    &:hover {
-      background: transparent !important;
-    }
-    .icon-bar {
-      width: 22px;
-      transition: all 0.2s;
-    }
-    .top-bar {
-      transform: rotate(45deg);
-      transform-origin: 10% 10%;
-    }
-    .middle-bar {
-      opacity: 0;
-    }
-    .bottom-bar {
-      transform: rotate(-45deg);
-      transform-origin: 10% 90%;
-    }
+.navbar-custom {
+  border: none !important;
+  background: transparentize(#000, .3) !important;
+  text-align: center;
+  padding: 20px;
+  .navbar-nav-custom {
+    float:none;
+    margin: 0 auto;
+    display: table;
+    table-layout: fixed;
+    @extend .header-button-text;
+  }
+  .navbar-nav>li>a:link {
+    color: $white;
+  }
+  .navbar-nav>li>a:visited {
+    color: $white;
+  }
+  .navbar-nav>li>a:hover {
+    color: lighten($teal, 20);
+  }
+  .navbar-collapse-custom {
+    box-shadow: none;
+    border: none;
+  }
 }
+
+// animate navicon //
+.navbar-toggle-custom {
+  border: none !important;
+  background: transparent !important;
+
+  &:hover {
+    background: transparent !important;
+  }
+  &focus {
+    background: transparent !important;
+  }
+  .icon-bar {
+    background-color: $white !important;
+    border-radius: 0 !important;
+    width: 22px;
+    transition: all 0.2s;
+  }
+  .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+  .middle-bar {
+    opacity: 0;
+  }
+  .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+}
+
+.navbar-toggle-custom.collapsed {
+  .top-bar {
+    transform: rotate(0);
+  }
+  .middle-bar {
+    opacity: 1;
+  }
+  .bottom-bar {
+    transform: rotate(0);
+  }
+}
+
+// Don’t forget to add the -ms-transform, -ms-transform-origin, -webkit-transform, and -webkit-transform-origin properties to your CSS to get this to work on iDevices and others.
