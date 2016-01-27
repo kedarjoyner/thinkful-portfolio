@@ -1,0 +1,38 @@
+.navbar-custom, .navbar-toggle-custom {
+  border: none;
+  background-color: transparentize(#000, .3) !important;
+  height: 75px;
+  color: $white;
+    .navbar-nav-custom {
+      float:none;
+      margin: 0 auto;
+      display: table;
+      table-layout: fixed;
+      @extend .header-button-text;
+    }
+    .navbar-nav-custom > li > a {
+      color: $white;
+      margin-top: 15px;
+    }
+    .navbar-nav-custom > li > a:hover {
+      color: lighten($teal, 20);
+    }
+    &:hover {
+      background: transparent !important;
+    }
+    .icon-bar {
+      width: 22px;
+      transition: all 0.2s;
+    }
+    .top-bar {
+      transform: rotate(45deg);
+      transform-origin: 10% 10%;
+    }
+    .middle-bar {
+      opacity: 0;
+    }
+    .bottom-bar {
+      transform: rotate(-45deg);
+      transform-origin: 10% 90%;
+    }
+}
