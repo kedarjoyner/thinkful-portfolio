@@ -1,7 +1,8 @@
 // hero image styling //
 
 .hero-img {
-   background-image: linear-gradient(rgba(51, 153, 119, .9), rgba(51, 153, 119, 0.8)), url('/imgs/hero-img.jpg');
+   color: $hero-font-color;
+   background-image: $linear-gradient, url('/imgs/hero-img.jpg');
    background-size: cover;
    -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,12 +15,16 @@
    .header-content {
      padding: 15em 0;
      margin: 0 auto;
-     color: $white;
      text-align: center;
+      & > h1 {
+        font-size: 6em;
+        text-transform: none;
+        color: $white;
+      }
+      & > h3 {
+        font-size: 1.5em;
+      }
    }
-  .header-title {
-    letter-spacing: .05em;
-  }
   .header-button-style {
     margin: 0 auto;
     display: block;
@@ -43,4 +48,16 @@
       background-color: $white;
       color: $teal;
      }
+}
+
+// mobile size for text //
+@media screen and (max-width: 570px) {
+  .hero-img .header-content {
+    & > h1 {
+      font-size: 4.0em;
+    }
+    & > h3  {
+    font-size: 1.2em;
+    }
+  }
 }

@@ -1,0 +1,71 @@
+.about-me {
+  .portraits-container {
+      .portrait {
+        min-width: 200px;
+        min-height: 200px;
+          }
+        }
+    .bio {
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+}
+
+.interests {
+  width: 100%;
+  height: auto;
+  background-color: $light-grey;
+      .interests-text {
+        margin-bottom: 20px;
+      }
+      #center {
+        text-align: center;
+      }
+      .line {
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 80px;
+        height: 4px;
+        background-color: $teal;
+      }
+      .adjust-margin {
+        margin-top: $header-margin-top-adjust;
+        margin-bottom: $header-margin-bottom-adjust;
+    }
+    .icon-container {
+      margin-top: 20px;
+    }
+    .fa {
+      color: $teal;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .hide-one, .hide-two  {
+      display: none;
+      text-align: center;
+    }
+}
+
+
+
+// .about-me {
+//   // look-up retina media-query
+//     .img-container {
+//       min-width: 206px;
+//       min-height: 206px;
+//       background-size: cover;
+//       background-repeat: no-repeat;
+//       background-position: 50% 50%;
+//       margin-bottom: 5px;
+//     }
+//     .portrait-1 {
+//       background-image: url("../imgs/portrait-2.jpg");
+//     }
+//     .portrait-2 {
+//       background-image: url("../imgs/portrait-1.jpg");
+//     }
+//     .portrait-3 {
+//       background-image: url("../imgs/portrait-3.jpg");
+//     }
+//   }

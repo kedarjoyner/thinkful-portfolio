@@ -1,0 +1,28 @@
+
+// header text
+
+h1 {
+  font-family: $headings-font-family;
+  font-size: $header-base-size;
+  margin-top: $header-one-margin-top;
+  margin-bottom: $header-one-margin-bottom;
+  font-weight: $header-base-weight;
+  color: $heading-color;
+}
+
+h2, {
+  font-family: $font-family-sans-serif;
+  font-weight: $font-base-weight;
+  margin-bottom: $header-subtitle-margin-bottom;
+}
+
+h3, h4, h5, h6 {
+  font-family: $font-family-sans-serif;
+  font-weight: $header-subtitle-weight;
+  margin-bottom: $header-subtitle-margin-bottom;
+}
+
+p {
+  color: $light-black;
+  font-weight: $font-base-weight;
+}
