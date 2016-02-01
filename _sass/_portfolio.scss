@@ -1,18 +1,47 @@
-// #portfolio {
-//
-//   .custom-panel-heading {
-//     background-image: url("")
-//   }
-//
-// }
+.my-portfolio {
+  margin-top: $section-margin-top;
 
-.portfolio-panels {
-  margin-top: 20px;
+  .portfolio-panels {
+    margin-top: 20px;
 
-  .panel-style {
-    border: none;
+    .panel-style {
+      border: none;
+    }
+    .panel-heading-style {
+      color: $white;
+      text-align: center;
+
+        & p {
+          color: $white;
+          padding: 0 3em;
+        }
+      & .panel-title-style {
+        margin-top: 80px;
+        font-weight: 600;
+      }
+    }
+    .no-border {
+      border-radius: 0;
+    }
+    .panel-img-one {
+      background-image: $linear-gradient-teal, url('/imgs/beerme.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 300px;
+    }
   }
-  .no-border {
-    border-radius: 0;
-  }
+}
+
+//glyphicon
+
+.chevron-container {
+  margin-top: 30px;
+    a {
+      color: white;
+    }
+    a:hover {
+      transition: .3s;
+      margin: -15px 3px;
+    }
 }

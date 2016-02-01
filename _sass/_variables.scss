@@ -8,7 +8,7 @@ $teal: #339977;
 $teal-darker: #297c60;
 $teal-lighter: #72d0b1;
 $black: #000;
-$light-black: #2a2a2a;
+$light-black: #3F3F3F;
 $light-grey: #f6f6f6;
 $white: #FFF;
 
@@ -35,12 +35,8 @@ $headings-font-family: "Josefin Slab", serif;
 $heading-color: $teal;
 $header-base-weight: 700;
 $header-base-size: 3.5em;
-$header-one-margin-bottom: 10px;
-$header-one-margin-top: 60px;
-$header-margin-top-adjust: 40px;
-$header-margin-bottom-adjust: 20px;
-$header-subtitle-margin-bottom: 40px;
 $header-subtitle-weight: 600;
+$header-two-weight: 400;
 
 
 // Hero font colors
@@ -49,4 +45,9 @@ $hero-font-color: $white;
 
 //== Images
 
-$linear-gradient: linear-gradient(rgba(51, 153, 119, .9), rgba(51, 153, 119, 0.8));
+$linear-gradient-teal: linear-gradient(rgba(51, 153, 119, .9), rgba(51, 153, 119, 0.8));
+$linear-gradient-black: linear-gradient(rgba(42, 42, 42, .9), rgba(42, 42, 42, 0.8));
+
+// new sections
+
+$section-margin-top: 30px;

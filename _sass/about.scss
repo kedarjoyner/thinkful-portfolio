@@ -1,4 +1,9 @@
 .about-me {
+  margin-top: $section-margin-top;
+
+  .page-subtitle {
+    margin-bottom: 40px;
+  }
   .portraits-container {
       .portrait {
         min-width: 200px;
@@ -10,7 +15,6 @@
       margin-bottom: 40px;
     }
 }
-
 .interests {
   height: auto;
   background-color: $light-grey;
@@ -18,17 +22,18 @@
       #center {
         text-align: center;
       }
+      .interests-text {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
       .line {
         margin: 0 auto;
         margin-top: 50px;
+        margin-bottom: 40px;
         width: 80px;
         height: 4px;
         background-color: $teal;
       }
-      .adjust-margin {
-        margin-top: $header-margin-top-adjust;
-        margin-bottom: $header-margin-bottom-adjust;
-    }
     .icon-container {
       margin-top: 30px;
     }

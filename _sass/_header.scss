@@ -2,7 +2,7 @@
 
 .hero-img {
    color: $hero-font-color;
-   background-image: $linear-gradient, url('/imgs/hero-img.jpg');
+   background-image: $linear-gradient-teal, url('/imgs/hero-img.jpg');
    background-size: cover;
    -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -20,9 +20,10 @@
         font-size: 6em;
         text-transform: none;
         color: $white;
+        //margin-bottom: 0;
       }
-      & > h3 {
-        font-size: 1.5em;
+      & > h2 {
+        margin-top: 0;
       }
    }
   .header-button-style {
@@ -56,7 +57,7 @@
     & > h1 {
       font-size: 4.0em;
     }
-    & > h3  {
+    & > h2 {
     font-size: 1.2em;
     }
   }
