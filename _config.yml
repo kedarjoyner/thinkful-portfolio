@@ -9,6 +9,22 @@ url: "http://kedarcodes.com" # the base hostname & protocol for your site
 twitter_username: kedmasterk
 github_username:  kedarjoyner
 
+# Footer settings
+footer:
+  copyright: Kedar Joyner
+  social: Say Hello!
+
+# Social networks usernames
+social:
+  - title: github
+    url: https://github.com/kedarjoyner
+  - title: linkedin
+    url: https://www.linkedin.com/in/kedarjoyner
+  - title: twitter
+    url: http://twitter.com/kedmasterk
+  - title: instagram
+    url: https://www.instagram.com/kedarjoyner/
+
 # Build settings
 markdown: kramdown
 permalink: /:title
