@@ -8,7 +8,8 @@
     margin: 0 auto;
     display: table;
     table-layout: fixed;
-    @extend .header-button-text;
+    @extend .button-text;
+    font-weight: $font-base-weight;
   }
   .navbar-nav>li>a:link {
     color: $white;

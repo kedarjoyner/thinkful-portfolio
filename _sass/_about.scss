@@ -1,5 +1,4 @@
 .about-me {
-  margin-top: $section-margin-top;
 
   .page-subtitle {
     margin-bottom: 30px;
@@ -14,9 +13,6 @@
 }
 
 .interests {
-  height: auto;
-  background-color: $light-grey;
-
       #center {
         text-align: center;
       }
@@ -52,25 +48,3 @@
       text-align: center;
     }
 }
-
-
-// .about-me {
-//   // look-up retina media-query
-//     .img-container {
-//       min-width: 206px;
-//       min-height: 206px;
-//       background-size: cover;
-//       background-repeat: no-repeat;
-//       background-position: 50% 50%;
-//       margin-bottom: 5px;
-//     }
-//     .portrait-1 {
-//       background-image: url("../imgs/portrait-2.jpg");
-//     }
-//     .portrait-2 {
-//       background-image: url("../imgs/portrait-1.jpg");
-//     }
-//     .portrait-3 {
-//       background-image: url("../imgs/portrait-3.jpg");
-//     }
-//   }

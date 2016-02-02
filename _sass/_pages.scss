@@ -1,0 +1,11 @@
+
+.page-style {
+  margin-top: $section-margin-top;
+  background: $white;
+  height: auto;
+  width: 100%;
+}
+
+.page-style:nth-of-type(2n) {
+  background: $light-grey;
+}

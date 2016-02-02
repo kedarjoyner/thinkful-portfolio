@@ -4,7 +4,6 @@ footer {
 }
 
 .footer-above {
-    width: 100%;
     background-color: $teal;
     padding: 30px;
 
@@ -14,28 +13,33 @@ footer {
       font-size: 2em;
       font-weight: 400;
     }
-    .btn-social {
+    .btn-social, .btn-outline {
         display: inline-block;
         width: 50px;
         height: 50px;
+        color: $white;
         border: solid 2px $white;
         border-radius: 100%;
         text-align: center;
         font-size: 2em;
         line-height: 45px;
+        background: 0 0;
         transition: all .3s ease-in-out;
-      }
 
-    a > i {
-      color: $white;
+        a > i {
+          color: $white;
+        }
+          & i:hover {
+            color: $teal-lighter;
+        }
     }
-      & i:hover {
-        color: $teal;
+    .btn-social:hover, .btn-outline:hover {
+      border: 1px solid $teal-lighter;
+      background: $white;
+      color: $teal-lighter;
+      background: #fff;
     }
-      .btn-social:hover {
-        background: $white;
-    }
-  }
+}
 
   .footer-below {
     padding: 15px;
