@@ -36,12 +36,15 @@
       }
     .icon-container {
       margin-top: 30px;
+      padding: 0 80px;
     }
     .fa {
       color: $teal;
     }
     .icon-text {
+      margin: 0 auto;
       margin-bottom: 50px;
+      text-align: center;
     }
 }
 
