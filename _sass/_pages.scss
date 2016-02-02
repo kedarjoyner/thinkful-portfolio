@@ -1,4 +1,6 @@
 
+// general page style
+
 .page-style {
   margin-top: $section-margin-top;
   background: $white;
@@ -6,6 +8,18 @@
   width: 100%;
 }
 
+// every other page has light-grey background
+
 .page-style:nth-of-type(2n) {
   background: $light-grey;
+}
+
+// line style
+
+.line {
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 80px;
+  height: 3px;
+  background-color: $teal;
 }
