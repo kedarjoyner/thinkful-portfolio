@@ -25,6 +25,10 @@ defaults:
     values:
       layout: "post"
 
+# where things are
+
+images_dir = "imgs"
+
 # Social networks usernames
 social:
   - title: github
