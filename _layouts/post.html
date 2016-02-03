@@ -7,27 +7,25 @@
 
 {% include nav.html %}
 
-{% for post in site.posts %}
-  {% if post.url == "/beer-me" %}
 <section class="posts-page">
     <div class="container-fluid">
       <div class="row">
           <div class="col-lg-8 col-lg-offset-2">
               <div class="modal-body">
-                  <h2>{{ post.title }}</h2>
-                  <img src="imgs/portfolio-page/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
-                  <p>{{ post.description }}</p>
+                  <h2>{{ page.title }}</h2>
+                  <img src="imgs/portfolio-page/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}">
+                  <p>{{ page.description }}</p>
                   <ul class="list-inline item-details">
                       <li>Client:
-                          <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                          <strong><a href="http://startbootstrap.com">{{ page.client }}</a>
                           </strong>
                       </li>
                       <li>Date:
-                          <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                          <strong><a href="http://startbootstrap.com">{{ page.project-date }}</a>
                           </strong>
                       </li>
                       <li>Service:
-                          <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                          <strong><a href="http://startbootstrap.com">{{ page.category }}</a>
                           </strong>
                       </li>
                   </ul>
@@ -37,8 +35,8 @@
       </div>
   </div>
 </section>
-{% endif %}
-{% endfor %}
+
+
 {% include footer.html %}
 
   <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
