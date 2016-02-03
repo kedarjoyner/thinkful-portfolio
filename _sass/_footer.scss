@@ -1,17 +1,22 @@
-
 footer {
   color: $white;
+  p {
+    color: $white;
+  }
 }
+
 
 .footer-above {
     background-color: $teal;
     padding: 30px;
-
     .social-text {
       margin-bottom: 20px;
       color: $white;
       font-size: 2em;
       font-weight: 400;
+    }
+    .social-container {
+      padding: 10px;
     }
     .btn-social, .btn-outline {
         display: inline-block;

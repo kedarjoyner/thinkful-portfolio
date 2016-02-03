@@ -1,5 +1,5 @@
 ---
-layout: posts
+
 img: karma.jpg
 alt: image-alt
 category: Web Development

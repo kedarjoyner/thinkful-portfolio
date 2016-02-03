@@ -1,5 +1,4 @@
 ---
-layout: posts
 img: shopping.jpg
 alt: image-alt
 category: Web Development

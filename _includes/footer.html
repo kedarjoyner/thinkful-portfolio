@@ -3,15 +3,16 @@
     <div class="footer-above">
         <div class="container-fluid">
             <div class="row">
-                <div class="footer-col col-md-12 social-container">
+                <div class="footer-col col-md-12">
                     <h1 class="social-text">{{ site.footer.social }}</h1>
-                    <ul class="list-inline">
+                    <ul class="list-inline social-container">
                         {% for network in site.social %}
                         <li>
                           <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
                         </li>
                     {% endfor %}
                     </ul>
+                    <p>Made with <i class="fa fa-heart"></i> using <a href="http://jekyllrb.com/">Jekyll</a></p>
                 </div>
             </div>
         </div>

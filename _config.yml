@@ -14,6 +14,14 @@ footer:
   copyright: Kedar Joyner
   social: Say Hello!
 
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
 # Social networks usernames
 social:
   - title: github

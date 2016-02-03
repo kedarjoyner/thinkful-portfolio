@@ -28,3 +28,17 @@ p {
   color: $light-black;
   font-weight: $font-base-weight;
 }
+
+// links
+
+a,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    color: $white;
+}
+
+a:hover {
+  color: $teal-lighter;  
+}

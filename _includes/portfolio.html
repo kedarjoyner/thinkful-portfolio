@@ -5,19 +5,19 @@
                  <h1>Portfolio</h1>
              </div>
          </div>
-         <p> {{ site.posts }} </p>
          <div class="row portfolio-container">
              {% for post in site.posts %}
                  <div class="col-md-4 col-sm-6 col-xs-12 portfolio-item">
-                     <a href="{{ post.url }}" class="portfolio-link">
+                     <a href="{{ post.url | prepend: site.baseurl }}" class="portfolio-link">
                          <div class="caption">
                              <div class="caption-content">
                                  <i class="fa fa-search-plus fa-3x"></i>
                              </div>
                          </div>
-                         <img src="imgs/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                         <img src="imgs/portfolio-page/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                      </a>
                      <h4 class="text-uppercase text-center"> {{ post.title }} </h4>
+                     <!-- {{ post.tags | newline_to_br }} -->
                  </div>
              {% endfor %}
          </div>

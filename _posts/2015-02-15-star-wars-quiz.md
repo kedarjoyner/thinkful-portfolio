@@ -1,5 +1,4 @@
 ---
-layout: posts
 img: starwars.jpg
 alt: image-alt
 category: Web Development
