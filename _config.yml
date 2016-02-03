@@ -28,6 +28,7 @@ defaults:
 # where things are
 
 images_dir = "imgs"
+sass_dir = "_sass"
 
 # Social networks usernames
 social:
