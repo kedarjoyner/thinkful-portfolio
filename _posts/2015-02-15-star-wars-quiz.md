@@ -1,4 +1,5 @@
 ---
+title: Star Wars Quiz
 img: starwars.jpg
 alt: image-alt
 category: Web Development

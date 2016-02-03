@@ -1,5 +1,5 @@
 ---
-
+title: Photography
 img: photography.jpg
 alt: image-alt
 category: Web Development
