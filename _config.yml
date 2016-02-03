@@ -36,7 +36,3 @@ social:
 # Build settings
 markdown: kramdown
 permalink: /:title
-
-#Where things are
-sass:
-    sass_dir: _sass
