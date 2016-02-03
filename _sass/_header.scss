@@ -2,7 +2,7 @@
 
 .hero-img {
    color: $hero-font-color;
-   background-image: $linear-gradient-teal, url("{{ site.baseurl }}./imgs/hero-img.jpg");
+   background-image: $linear-gradient-teal, url("{{ site.baseurl }}imgs/hero-img.jpg");
    background-size: cover;
    -webkit-background-size: cover;
     -moz-background-size: cover;
