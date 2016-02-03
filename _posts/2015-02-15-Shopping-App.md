@@ -1,4 +1,5 @@
 ---
+title: Shopping App
 img: shopping.jpg
 alt: image-alt
 category: Web Development
