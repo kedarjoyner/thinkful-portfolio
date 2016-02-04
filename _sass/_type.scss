@@ -37,8 +37,9 @@ a:active,
 a.active {
     outline: 0;
     color: $white;
+    text-decoration: none !important;
 }
 
 a:hover {
-  color: $teal-lighter;  
+  color: $teal-lighter;
 }

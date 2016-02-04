@@ -10,31 +10,31 @@
     <section class="posts-page">
         <div class="container-fluid">
           <div class="row">
-              <div class="col-lg-8 col-lg-offset-2">
-                  <div class="modal-body">
-                      <h2>{{ page.title }}</h2>
-                      <img src="imgs/portfolio-page/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}">
-                      <p>{{ page.description }}</p>
-                      <ul class="list-inline item-details">
-                          <li>Project Name:
-                              <strong><a href="http://startbootstrap.com">{{ page.client }}</a>
-                              </strong>
-                          </li>
-                          <li>Frameworks Used:
-                              <strong><a href="http://startbootstrap.com">{{ page.project-date }}</a>
-                              </strong>
-                          </li>
-                          <li>Design:
-                              <strong><a href="http://startbootstrap.com">{{ page.category }}</a>
-                              </strong>
-                          </li>
-                      </ul>
-                      <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+              <div class="col-lg-12 col-md-12">
+                  <h1 class="portfolio-title">{{ page.title }}</h1>
+                  <img src="imgs/portfolio-page/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}">
+
+                  <h5 class="text-uppercase case-study">Description:</h5>
+                  <p>{{ page.description }}</p>
+
+                  <h5 class="text-uppercase case-study">Challenges:</h5>
+                  <p>{{ page.challenges }}</p>
+
+                  <h5 class="text-uppercase case-study">Frameworks Used:</h5>
+                  <p class>{{ page.frameworks }}</p>
+
+                  <div class="row">
+                    <div class="col-md-12">
+                      <a href="{{ page.site }}" target="_blank">
+                        <button type="button" class="btn btn-lg button-style button-style-form button-text">View Project</button>
+                      </a>
                   </div>
+                </div>
               </div>
           </div>
       </div>
-    </section>
+  </section>
+
 
 {% include footer.html %}
 <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>

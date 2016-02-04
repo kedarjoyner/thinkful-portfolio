@@ -1,8 +1,11 @@
 ---
 title: Graphic Design
 img: graphics.jpg
-alt: image-alt
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+alt: logo for iron quill tattoo
+description: As a creative storyteller and photographer, learning graphic design was a matter of natural progression for me. More than four years ago I started attending workshops and collaborating with other artists in the area to create engaging, beautiful content. I've worked on a broad range of design projects that include website design, magazine layout, hand-lettering, corporate communications, infographics, wedding invitations, infographics, and logo creation.
+
+challenges:
+
+frameworks:
 
 ---
