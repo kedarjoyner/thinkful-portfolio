@@ -11,17 +11,18 @@
         <div class="container-fluid">
           <div class="row">
               <div class="col-lg-12 col-md-12">
-                  <h1 class="portfolio-title">{{ page.title }}</h1>
-                  <img src="imgs/portfolio-page/{{ page.img }}" class="img-responsive" alt="{{ page.alt }}">
+                  <div class="case-study-container">
+                    <h1 class="portfolio-title text-center">{{ page.title }}</h1>
+                    <img src="imgs/portfolio-page/{{ page.img }}" class="img-responsive center-block" alt="{{ page.alt }}">
+                    <h5 class="text-uppercase case-study">Overview:</h5>
+                    <p>{{ page.overview }}</p>
 
-                  <h5 class="text-uppercase case-study">Overview:</h5>
-                  <p>{{ page.overview }}</p>
+                    <h5 class="text-uppercase case-study">Challenges:</h5>
+                    <p>{{ page.challenges }}</p>
 
-                  <h5 class="text-uppercase case-study">Challenges:</h5>
-                  <p>{{ page.challenges }}</p>
-
-                  <h5 class="text-uppercase case-study">Frameworks Used:</h5>
-                  <p class>{{ page.frameworks }}</p>
+                    <h5 class="text-uppercase case-study">Frameworks Used:</h5>
+                    <p class>{{ page.frameworks }}</p>
+                  </div>
 
                   {% if page.button  %}
                   <div class="row">
