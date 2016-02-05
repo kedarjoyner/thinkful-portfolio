@@ -23,20 +23,23 @@
                   <h5 class="text-uppercase case-study">Frameworks Used:</h5>
                   <p class>{{ page.frameworks }}</p>
 
+
                   <div class="row">
                     <div class="col-md-12">
                       <a href="{{ page.site }}" target="_blank">
-                        <button type="button" class="btn btn-lg button-style button-style-form button-text">View Project</button>
+                        <button type="button" class="btn btn-lg button-style button-style-form button-text">
+                            View
+                          {% if page.button %}
+                            <!-- if page.button exists output page.button otherwise say project -->
+                            {{ page.button }}
+                          {% else %}
+                            <!-- project could change depending on md file variable -->
+                            Project
+                          {% endif %}
+                        </button>
                       </a>
                   </div>
                 </div>
-                <div class="row">
-                  <div class="col-md-12">
-                    <a href="{{ page.site }}" target="_blank">
-                      <button type="button" class="btn btn-lg button-style button-style-form button-text">View Site</button>
-                    </a>
-                </div>
-              </div>
               </div>
           </div>
       </div>
