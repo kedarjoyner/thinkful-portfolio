@@ -1,7 +1,13 @@
 ---
-title: Karma Clone
+title: Website Klone
 img: karma.jpg
-alt: image-alt
-category: Web Development
-description: Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!
+alt: logo for the company karma
+overview: When I'm at the grocery store or at the local pub, the nerd in me likes to know more about the beer I'm drinking. What's the ABV? What ingredients were used? Where's the brewery located? I started wire framing ideas for an app that would allow users to unlock interesting information about every craft beer all the way from Paris, France to small town Verona, Wisconsin. I chose the BrewderyDB API because of it's well written documentation, active support community, and open source culture. The app took roughly three weeks from conception to deployment, and it's already received positive feedback and feature requests from testers.
+
+challenges: BreweryDB doesn't allow for AJAX calls or JSONP to the API. I was sold on using their API, so as a temporary solution I used the Google CORS plugin until I got the app working successfully on my local server. After that, I tackled the CORS issue by attending Node.js workshops and curating advice from more experienced programmers at Thinkful. I was able to use Node.js to setup a server, so AJAX could make a proxy request and retrieve JSON data from the brewery database.
+
+frameworks: HTML & CSS
+
+site: http://kedarjoyner.github.io/clone-landing-page/
+
 ---

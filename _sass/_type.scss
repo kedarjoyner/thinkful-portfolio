@@ -35,7 +35,7 @@ a,
 a:focus,
 a:active,
 a.active {
-    outline: 0;
+    outline: 0 !important;
     color: $white;
     text-decoration: none !important;
 }
