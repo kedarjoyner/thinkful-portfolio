@@ -1,13 +1,10 @@
 ---
-title: Website Klone
+title: Website Clone
 img: karma.jpg
 alt: logo for the company karma
-overview: When I'm at the grocery store or at the local pub, the nerd in me likes to know more about the beer I'm drinking. What's the ABV? What ingredients were used? Where's the brewery located? I started wire framing ideas for an app that would allow users to unlock interesting information about every craft beer all the way from Paris, France to small town Verona, Wisconsin. I chose the BrewderyDB API because of it's well written documentation, active support community, and open source culture. The app took roughly three weeks from conception to deployment, and it's already received positive feedback and feature requests from testers.
-
-challenges: BreweryDB doesn't allow for AJAX calls or JSONP to the API. I was sold on using their API, so as a temporary solution I used the Google CORS plugin until I got the app working successfully on my local server. After that, I tackled the CORS issue by attending Node.js workshops and curating advice from more experienced programmers at Thinkful. I was able to use Node.js to setup a server, so AJAX could make a proxy request and retrieve JSON data from the brewery database.
-
+overview: During my time at Thinkful, one of my initial assignments was to clone a landing page for a company called Karma Wi-FI using only html and raw css.
+challenges: I typically use CSS frameworks like Bootstrap and Semantic UI for faster web development, so using raw CSS was a great exercise for me. I struggled with box models and positioning, but found myself quickly enjoying the process of learning more about CSS layouts. Since Karma Clone, I've advanced further and integrated Sass into my everyday workflow and often mentor other students in layout design.
 frameworks: HTML & CSS
-
 site: http://kedarjoyner.github.io/clone-landing-page/
 
 ---
