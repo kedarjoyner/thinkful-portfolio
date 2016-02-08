@@ -1,19 +1,31 @@
 .about-me {
-
-  .portraits-container {
-    padding: 3em 0;
-  }
   .col-md-offset-custom {
     margin-left: 12.5%;
   }
 }
 
+.interests {
+  .icon-container {
+    margin-bottom: 2.5em;
+  }
+  .block-padding {
+    padding: 1.5em 0;
+  }
+  .icon-padding {
+    padding-top: 1.5em;
+  }
+}
+
+
 @media screen and (max-width: 992px) {
     .hide-one, .hide-two  {
       display: none;
     }
-    .show-one {
+    .show {
       margin-left: 0;
       padding: 0 10%;
+    }
+    .page-style {
+      padding-bottom: 1.8em;
     }
 }

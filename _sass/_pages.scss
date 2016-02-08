@@ -11,3 +11,9 @@
 .page-style:nth-of-type(2n) {
   background: $light-grey;
 }
+
+// padding between divs
+
+.block-padding {
+  padding: 3em 0;
+}
