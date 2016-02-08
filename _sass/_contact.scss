@@ -1,12 +1,5 @@
 .contact-me {
 
-  .form-container {
-    width: 60%;
-  }
-  .contact-form {
-    margin-top: 30px;
-    margin-bottom: 40px;
-  }
   .input-style {
     border-radius: 0;
     -webkit-border-radius: 0;
@@ -23,11 +16,3 @@
     height: 10em;
   }
 }
-
-/* Small Devices, Tablets */
-   @media only screen and (max-width : 768px) {
-     .contact-me > .form-container {
-       width: 95%;
-     }
-
-   }
