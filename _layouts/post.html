@@ -8,44 +8,43 @@
 {% include nav.html %}
 
     <section class="posts-page">
-        <div class="container-fluid">
-          <div class="row">
-              <div class="col-lg-12 col-md-12">
-                  <div class="case-study-container">
-                    <h1 class="portfolio-title text-center">{{ page.title }}</h1>
-                    <img src="imgs/portfolio-page/{{ page.img }}" class="img-responsive center-block" alt="{{ page.alt }}">
-                    <h5 class="text-uppercase case-study">Overview:</h5>
-                    <p>{{ page.overview }}</p>
-
-                    <h5 class="text-uppercase case-study">Challenges:</h5>
-                    <p>{{ page.challenges }}</p>
-
-                    <h5 class="text-uppercase case-study">Frameworks Used:</h5>
-                    <p class>{{ page.frameworks }}</p>
-                  </div>
-
-                  {% if page.button  %}
-                  <div class="row">
-                    <div class="col-md-12">
-                      <a href="{{ page.site }}" target="_blank">
-                        <button type="button" class="btn btn-lg button-style button-style-form button-text">
-                            View
-                          {% if page.button  %}
-                            <!-- if page.button exists output page.button otherwise say project -->
-                            {{ page.button }}
-
-                          {% else %}
-                            <!-- project could change depending on md file variable -->
-                            Project
-                          {% endif %}
-                        </button>
-                      </a>
-                  </div>
-                </div>
-                {% endif %}
-              </div>
+      <h1 class="portfolio-title text-center">{{ page.title }}</h1>
+          <div class="container-fluid case-study-container">
+            <div class="row">
+              <img class="col-md-6 portfolio-images img-responsive" src="{{ site.baseurl }}/imgs/portfolio-page/{{ page.img }}" alt="{{ page.alt }}">
+              <img class="col-md-6 portfolio-images img-responsive" src="{{ site.baseurl }}/imgs/portfolio-page/{{ page.img }}" alt="{{ page.alt }}">
+              <img class="col-md-6 portfolio-images img-responsive" src="{{ site.baseurl }}/imgs/portfolio-page/{{ page.img }}" alt="{{ page.alt }}">
+              <img class="col-md-6 portfolio-images img-responsive" src="{{ site.baseurl }}/imgs/portfolio-page/{{ page.img }}" alt="{{ page.alt }}">
+            </div>
           </div>
-      </div>
+            <h5 class="text-uppercase case-study">Overview:</h5>
+            <p>{{ page.overview }}</p>
+
+            <h5 class="text-uppercase case-study">Challenges:</h5>
+            <p>{{ page.challenges }}</p>
+
+            <h5 class="text-uppercase case-study">Frameworks Used:</h5>
+            <p class>{{ page.frameworks }}</p>
+
+          {% if page.button  %}
+          <div class="row">
+            <div class="col-md-12">
+              <a href="{{ page.site }}" target="_blank">
+                <button type="button" class="btn btn-lg button-style button-style-form button-text">
+                    View
+                  {% if page.button  %}
+                    <!-- if page.button exists output page.button otherwise say project -->
+                    {{ page.button }}
+
+                  {% else %}
+                    <!-- project could change depending on md file variable -->
+                    Project
+                  {% endif %}
+                </button>
+              </a>
+          </div>
+        </div>
+        {% endif %}
   </section>
 
 
