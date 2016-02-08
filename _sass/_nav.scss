@@ -2,13 +2,13 @@
   border: none !important;
   background: transparentize(#000, .3) !important;
   text-align: center;
-  padding: 6px;
+  padding: 1em;
   .navbar-nav-custom {
     float:none;
     margin: 0 auto;
     display: table;
     table-layout: fixed;
-    @extend .button-text;
+    font-size: 1.2em;
     font-weight: $font-base-weight;
   }
   .navbar-nav>li>a:link {
