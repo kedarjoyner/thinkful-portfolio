@@ -1,47 +1,24 @@
 .about-me {
 
-  .page-subtitle {
-    margin-bottom: 30px;
-  }
   .portraits-container {
-    padding: 0 10%;
+    padding: 4% 0;
   }
-  .bio {
-    margin-top: 40px;
-    padding: 0 10%;
+  .col-md-offset-custom {
+    margin-left: 12.5%;
   }
-}
-
-.interests {
-      #center {
-        text-align: center;
-      }
-      .header-style {
-       margin-top: 30px;
-       margin-bottom: 30px;
-      }
-
-      .interests-text {
-        margin-bottom: 20px;
-        padding: 0 10%;
-      }
-    .icon-container {
-      margin-top: 30px;
-      padding: 0 10%;
-    }
-    .fa {
-      color: $teal;
-    }
-    .icon-text {
-      margin: 0 auto;
-      margin-bottom: 50px;
-      text-align: center;
-    }
 }
 
 @media screen and (max-width: 992px) {
     .hide-one, .hide-two  {
       display: none;
-      text-align: center;
     }
+    .show-one {
+      margin-left: 0;
+      padding: 0 10%;
+    }
+    .about-me {
+      .portraits-container {
+      padding: 10% 0;
+    }
+  }
 }
