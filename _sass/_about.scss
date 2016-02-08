@@ -1,4 +1,5 @@
 .about-me {
+  display: inline-block;
   .col-md-offset-custom {
     margin-left: 12.5%;
   }
@@ -24,8 +25,5 @@
     .show {
       margin-left: 0;
       padding: 0 10%;
-    }
-    .page-style {
-      padding-bottom: 1.8em;
     }
 }
