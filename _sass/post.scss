@@ -1,24 +1,7 @@
 .posts-page {
-  padding: 10em 0;
+  margin-top: 180px;
 
-  .portfolio-title {
-    margin-bottom: .5em;
-  }
-  .case-study-container {
-    padding: 0 10%;
-  }
-  .case-study {
-    padding-top: 2em;
-  }
   .portfolio-images {
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (max-width: 570px) {
-  .posts-page  {
-    .case-study-container {
-      padding: 0 1em;
-    }
+    margin-bottom: 30px;
   }
 }
