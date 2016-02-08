@@ -9,9 +9,6 @@
   .icon-container {
     margin-bottom: 2.5em;
   }
-  .block-padding {
-    padding: 1.5em 0;
-  }
   .icon-padding {
     padding-top: 1.5em;
   }
@@ -21,9 +18,5 @@
 @media screen and (max-width: 992px) {
     .hide-one, .hide-two  {
       display: none;
-    }
-    .show {
-      margin-left: 0;
-      padding: 0 10%;
     }
 }

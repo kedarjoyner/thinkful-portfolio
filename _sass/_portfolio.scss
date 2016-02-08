@@ -34,12 +34,12 @@
   }
 
 .portfolio-item {
-      padding: 20px 20px;
+   margin: 15px 0;
   }
 
 .portfolio-item, .portfolio-link {
       display: inline-block; // remember this used to be set to block, didn't work. readup on inline
       position: relative;
-      margin: 0 auto;
+      // margin: 0 auto;
   }
 }
