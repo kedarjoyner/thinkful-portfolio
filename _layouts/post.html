@@ -8,8 +8,17 @@
 {% include nav.html %}
 
     <section class="posts-page">
-      <h1 class="text-center">{{ page.title }}</h1>
-          <div class="container-fluid block-padding">
+          <div class="container-fluid">
+
+            <div class="row">
+              <a class="col-md-12 col-lg-12 col-xs-12 text-center go-back" onclick="goBack()">
+                <span><i class="fa fa-angle-double-left"></i></span>
+                Go Back
+              </a>
+            </div>
+
+            <h1 class="text-center page-title">{{ page.title }}</h1>
+
             <div class="row">
               {% if page.one %}
                 <img class="col-md-8 col-md-offset-2 portfolio-images img-responsive" src="{{ site.baseurl }}/imgs/portfolio-page/{{ page.one }}" alt="{{ page.alt }}">
@@ -21,7 +30,7 @@
             </div>
           </div>
             {% endif %}
-          <div class="container-fluid block-padding">
+          <div class="container-fluid">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
                 <h5 class="text-uppercase">Overview:</h5>
@@ -36,7 +45,7 @@
             </div>
 
           {% if page.button  %}
-          <div class="row">
+          <div class="row block-padding">
             <div class="col-md-12">
               <a href="{{ page.site }}" target="_blank">
                 <button type="button" class="btn btn-lg button-style button-style-form button-text">
