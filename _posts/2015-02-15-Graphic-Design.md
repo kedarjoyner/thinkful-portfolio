@@ -1,6 +1,6 @@
 ---
 title: Graphic Design
-img: graphics.jpg
+img: graphics-2.jpg
 img1: graphics-1.jpg
 img2: graphics-2.jpg
 img3: graphics-3.jpg
