@@ -6,7 +6,7 @@ description: I'm a front end developer and designer based in the Midwest.
 
 # Links used throughout Site
 
-baseurl: "my-portfolio/"
+baseurl: my-portfolio/
 
 links:
   - title: Thinkful
