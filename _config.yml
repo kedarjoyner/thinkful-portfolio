@@ -6,14 +6,13 @@ description: I'm a front end developer and designer based in the Midwest.
 
 # Links used throughout Site
 
+baseurl: ""
+
 links:
   - title: Thinkful
     url: https://www.thinkful.com/
   - title: Photography site
     url: http://www.kedarjoyner.com/
-
-
-baseurl: "/my-portfolio"
 
 twitter_username: kedmasterk
 github_username:  kedarjoyner
