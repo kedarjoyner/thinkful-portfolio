@@ -3,10 +3,9 @@ title: Hi, I'm Kedar
 email: kedarjoyner@gmail.com
 description: I'm a front end developer and designer based in the Midwest.
 
+baseurl: "my-portfolio/"
 
 # Links used throughout Site
-
-baseurl: my-portfolio/
 
 links:
   - title: Thinkful
