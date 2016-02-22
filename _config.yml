@@ -3,7 +3,6 @@ title: Hi, I'm Kedar
 email: kedarjoyner@gmail.com
 description: I'm a front end developer and designer based in the Midwest.
 
-baseurl: "/my-portfolio"
 
 # Links used throughout Site
 
@@ -12,6 +11,9 @@ links:
     url: https://www.thinkful.com/
   - title: Photography site
     url: http://www.kedarjoyner.com/
+
+
+baseurl: "/my-portfolio"
 
 twitter_username: kedmasterk
 github_username:  kedarjoyner
