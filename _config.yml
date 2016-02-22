@@ -13,7 +13,7 @@ links:
     url: http://www.kedarjoyner.com/
 
 
-baseurl: /my-portfolio
+# baseurl: /my-portfolio
 
 twitter_username: kedmasterk
 github_username:  kedarjoyner
