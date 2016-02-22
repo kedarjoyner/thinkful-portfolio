@@ -1,5 +1,5 @@
 ---
-title: Shopping App
+title: shopping app
 img: shopping.jpg
 one: shoppingapp-1.jpg
 alt: wooden bin of vegetables
