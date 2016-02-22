@@ -7,6 +7,8 @@ description: I'm a front end developer and designer based in the Midwest.
 # Links used throughout Site
 
 links:
+  - title: home
+  - url: http://kedarjoyner.github.io/
   - title: Thinkful
     url: https://www.thinkful.com/
   - title: Photography site
