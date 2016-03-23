@@ -8,6 +8,8 @@
 
   .portfolio-images {
     margin-bottom: 40px;
+    object-fit: contain;
+    height: 678px;
   }
   a {
     color: $teal;
